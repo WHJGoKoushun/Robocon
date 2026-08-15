@@ -8,5 +8,5 @@ It demonstrates:
 - pushing initial content to `main`
 - creating and pushing a personal development branch
 - merging a development branch back into `main`
-- deleting the completed development branch
+- deleting the completed development branc
 
