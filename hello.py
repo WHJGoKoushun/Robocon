@@ -1,7 +1,6 @@
-def greet(name: str) -> str:
-    return f"Hello, {name}!"
+def greet(name: str, punctuation: str = "!") -> str:
+    return f"Hello, {name}{punctuation}"
 
 
 if __name__ == "__main__":
-    print(greet("GitHub"))
-
+    print(greet("GitHub", punctuation=" from go-koushun-dev"))
