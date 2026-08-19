@@ -132,10 +132,6 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-    DJmotor[3].Begin = true;
-    DJmotor[3].MODE_Set = DJ_RPM;
-    DJmotor[3].valSet.speed_rpm = 200;
-    HAL_Delay(1);
   }
   /* USER CODE END 3 */
 }
