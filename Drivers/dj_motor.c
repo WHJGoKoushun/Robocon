@@ -304,11 +304,7 @@ void DJmotor_Func(void)
     }
 }
 
-DJmotor_SwitchMode(&DJmotor[i]);
-// DJmotor_Monitor(&DJmotor[i]);
-DJmotor_CurrentTransmit(&DJmotor[i]);
-}
-}
+
 
 static void DJmotor_SwitchMode(DJMotorPointer motor)
 {
